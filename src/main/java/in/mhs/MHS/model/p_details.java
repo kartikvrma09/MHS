@@ -1,16 +1,18 @@
 package in.mhs.MHS.model;
 
 import jakarta.persistence.*;
+import lombok.Data;
 
 @Entity 
-
+@Data
 @Table(name = "patient")
 public class p_details {
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
+	@Column(name = "id", nullable = false, updatable = false) //update
 	private long id;
 
-	@Column(name = "user_name")
+	@Column(name = "username")
 	private String username;
 
 	@Column(name = "email")

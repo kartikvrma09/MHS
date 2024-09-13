@@ -7,7 +7,7 @@ body {
 
 #form {
     width: 450px;
-    margin: 15vh auto 0 auto;
+    /* margin: 15vh auto 0 auto; */
     background-color: rgb(255, 255, 255);
     border-radius: 5px;
     padding: 30px;

@@ -16,6 +16,7 @@
         .success {
             color: green;
         }
+
         .valid {
             border: 2px solid green;
         }
@@ -36,9 +37,11 @@
         .invalid-message {
             color: red;
         }
-        .container{
+
+        .container {
             width: 100vw;
         }
+
         .redirect-link {
             padding: 15px 30px;
             font-size: 18px;
@@ -52,21 +55,22 @@
         .redirect-link:hover {
             background-color: #004494;
         }
-        .container{
+
+        .container {
             /* height: 95vh; */
             width: 100%;
             display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 40px;
-    flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 40px;
+            flex-direction: column;
         }
     </style>
 </head>
 
 <body>
     <div class="container">
-        <a href="index.html" class="redirect-link">Go to Home Page</a>
+        <a href="." class="redirect-link">Go to Home Page</a>
         <form action="/createUser" id="form" method="post">
             <h1>Register</h1>
             <div class="input-group">

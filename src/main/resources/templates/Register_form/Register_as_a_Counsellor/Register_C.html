@@ -17,7 +17,7 @@
             display: flex;
             justify-content: center;
             align-items: center;
-            min-height: 100vh; 
+            min-height: 100vh;
         }
 
         /* header {
@@ -45,31 +45,33 @@
             border-radius: 5px;
             transition: background-color 0.3s ease;
         }
-        .container{
+
+        .container {
             width: 100vw;
         }
 
         .redirect-link:hover {
             background-color: #004494;
         }
-        .container{
+
+        .container {
             height: 95vh;
             width: 100%;
             display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 40px;
-    flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 40px;
+            flex-direction: column;
         }
     </style>
 </head>
 
 <body>
     <div class="container">
-      
-        
-            <a href="index.html" class="redirect-link">Go to Home Page</a>
-        
+
+
+        <a href="." class="redirect-link">Go to Home Page</a>
+
         <form action="/createCounsellor" id="form" method="post">
             <h1>Register</h1>
             <div class="input-group">
@@ -98,14 +100,15 @@
                 <input type="file" id="document" name="document" accept=".pdf, .doc, .docx, .txt" required>
                 <p class="error" id="fileError"></p>
             </div> -->
-            
+
             <div class="input-group">
                 <label for="description">Description:</label>
-                <textarea id="description" name="description" rows="4" cols="50" placeholder="Optional: Describe the content of the document..."></textarea>
+                <textarea id="description" name="description" rows="4" cols="50"
+                    placeholder="Optional: Describe the content of the document..."></textarea>
             </div>
             <button type="submit">Register</button>
         </form>
-       
+
     </div>
 </body>
 
